@@ -1,6 +1,6 @@
 {
   "name": "simple-service-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple service object pattern for javascript classes",
   "main": "./lib",
   "repository": {
