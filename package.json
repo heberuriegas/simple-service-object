@@ -1,0 +1,25 @@
+{
+  "name": "simple-service-object",
+  "version": "1.0.0",
+  "description": "Simple service object pattern for javascript classes",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woohoou/simple-service-object.git"
+  },
+  "keywords": [
+    "service object",
+    "service objects",
+    "service",
+    "object",
+    "objects",
+    "js",
+    "javascript"
+  ],
+  "author": "Heber Garza",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/woohoou/simple-service-object/issues"
+  },
+  "homepage": "https://github.com/woohoou/simple-service-object#readme"
+}
