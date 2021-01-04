@@ -2,16 +2,25 @@
 Simple service object pattern for javascript classes
 
 ## Description
-> As quotedby: https://crushlovely.com/journal/7-patterns-to-refactor-javascript-applications-service-objects/
->
+As quoted by: https://crushlovely.com/journal/7-patterns-to-refactor-javascript-applications-service-objects/
+
 >Service Objects are objects that perform a discrete operation or action. When a process becomes complex, hard to test, or touches more than one type of model, a Service Object can come in handy for cleaning up your code base.
 >
 > The goal of a Service Object is to isolate an operation, and should aim to follow these principles:
 >
-> Strict with input and output. Service Objects should be designed to handle a very specific process so we can forego the Robustness Principle in favor of creating a tool for a very discrete purpose.
-Documented thoroughly. This module will be extracted out of the place it's being executed, therefore it's even more imperative that the object's intent and use be well-explained.
->
->Terminates after operation is complete. This pattern should not be conflated with a worker process, which could set an interval, listen for web socket messages continuously, or some other operation to which there is no immediate end. Service Objects should be invoked, perform their immediate operations (whether synchronous or asynchronous), and terminate.  
+> - Strict with input and output. Service Objects should be designed to handle a very specific process so we can forego the Robustness Principle in favor of creating a tool for a very discrete purpose.  
+> - Documented thoroughly. This module will be extracted out of the place it's being executed, therefore it's even more imperative that the object's intent and use be well-explained.
+> - Terminates after operation is complete. This pattern should not be conflated with a worker process, which could set an interval, listen for web socket messages continuously, or some other operation to which there is no immediate end. Service Objects should be invoked, perform their immediate operations (whether synchronous or asynchronous), and terminate.
+
+## Installation
+```
+npm install simple-service-object
+```
+
+```
+yarn install simple-service-object
+```
+
 ## Example usage
 
 Define a class that inherits from __ServiceObject__, the class must ***overwrite the perform() method***.
