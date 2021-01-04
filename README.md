@@ -1,6 +1,15 @@
 # simple-service-object
 Simple service object pattern for javascript classes
 
+## Installation
+```
+npm install simple-service-object
+```
+
+```
+yarn install simple-service-object
+```
+
 ## Example usage
 
 Define a class that inherits from __ServiceObject__, the class must ***overwrite the perform() method***.
